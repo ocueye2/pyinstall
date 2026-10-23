@@ -6,4 +6,10 @@ app = Flask("test")
 def index():
     return f"arguments: {sys.argv}"
 
-app.run()
+
+def main():
+    app.run()
+
+
+if __name__ == "__main__":
+    main()

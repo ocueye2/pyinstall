@@ -20,6 +20,7 @@ while IFS='=' read -r key value || [ -n "$key" ]; do
         name) name=$value ;;
         entrypoint) ;;
         requirements) ;;
+        version | description | entry_function) ;;
         install_dir) install_dir=$value ;;
         venv_dir) venv_dir=$value ;;
         *) echo "Unknown setting in $config_file: $key" >&2; exit 1 ;;

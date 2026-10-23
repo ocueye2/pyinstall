@@ -1,0 +1,2 @@
+# Python dependencies for MediaTerm.
+# playerctl is a system command, not a Python package.
